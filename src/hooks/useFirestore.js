@@ -18,8 +18,8 @@ const useFirestore = (collection) => {
       return () => unsub();
 
     }, [collection])
-
-    return { docs };
+    
+    return { docs }; //clean-up function
 }
 
 export default useFirestore
