@@ -7,7 +7,6 @@ const Modal = ({ selectedImg, setSelectedImg }) => {
         if(e.target.classList.contains("backdrop")){
             setSelectedImg(null)
         }
-        
     }
 
     return (
